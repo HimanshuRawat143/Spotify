@@ -1,0 +1,203 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    color: white;
+    overflow: hidden;;
+}
+#container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sidebar{
+    background-color: black;
+    width: 23rem;
+}
+
+#content{
+    background-color: black;
+    flex: 1;
+    margin: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+#playback{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque;
+}
+#sfirst{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    align-content: center;
+}
+#sfirst a{
+    text-decoration: none;
+    line-height: 4rem;
+    font-size: 1.25rem;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    height: 2rem;
+}
+#sfirst a{
+    margin-left: 1.25rem;
+}
+#logo a{
+    margin:0;
+}
+#libbox{
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin-top: 0.75rem;
+}
+#library{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    margin:0.5rem;
+    padding: 1rem;
+    font-size: 0.75rem;
+    border-radius: 1rem;
+}
+#lib-icon{
+    display: flex;
+    padding-left: 1rem;
+}
+#lib-icon img{
+    height:1.5rem;
+    font-weight: 700;
+}
+#lib-icon a{
+    text-decoration: none;
+    margin-left: 1rem;
+    opacity: 0.7;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+#lib-icon i{
+    margin-left: 8rem;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+#library-1{
+    display: flex;
+    flex-direction: column;
+    margin: 1.25rem;
+}
+#library-1 h3{
+    margin-bottom: 0.5rem;
+}
+#library-1 p{
+    margin-bottom: 1rem;
+}
+#library-1 button{
+    color:black;
+    font-weight: 700;
+    width: 9rem;
+    border-radius: 1rem;
+    height: 2rem;
+    text-align: center;
+}
+
+#navbar{
+    background-color: #121212;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+#cntrl{
+    display: flex;
+    justify-content: space-evenly;
+    width:10rem;
+}
+#logsign{
+    margin-left: 45rem;
+}
+#login{
+    all: unset;
+    background-color: white;
+    color: black;
+    height: 3rem;
+    width: 7rem;
+    text-align: center;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+#signup{
+    all: unset;
+    margin-left: 2rem;
+    opacity: 0.7;
+}
+
+#heading h2{
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+#artist{
+    background: linear-gradient(to bottom, #232323, #121212, black);
+    padding-top: 1.85rem;
+    padding-left: 2rem;
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#card{
+    height:10.75rem;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-left: 0.25rem;
+    border-radius: 0.5rem;
+    transition: box-shadow 0.27s ease-in-out;
+}
+#singerimg {
+    width: 7rem; /* Set the width of the image container */
+    height: 7rem; /* Set the height of the image container */
+    overflow: hidden; /* Hide overflow to keep the circular shape */
+    border-radius: 50%; /* Make the container circular */
+    display: inline-block; /* Ensure it aligns correctly */
+}
+#singerimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+}
+#text {
+    margin-top: 1rem; /* Add some space between the image and text */
+}
+#name{
+    font-weight: 700;
+}
+#cate{
+    opacity: 0.7;
+    font-size: 1rem;
+}
+#card:hover{
+    background: linear-gradient(to bottom, #232323, #121212, black);
+    box-shadow: 0 4px 10px #232323;
+
+}
